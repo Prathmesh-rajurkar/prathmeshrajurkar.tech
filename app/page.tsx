@@ -1,9 +1,10 @@
+import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <div>
-      <h1>Prathmesh Rajurkar</h1>
-    </div>
-  );
+    return (
+        <div className="bg-white dark:bg-black">
+            <Navbar />
+        </div>
+    );
 }
