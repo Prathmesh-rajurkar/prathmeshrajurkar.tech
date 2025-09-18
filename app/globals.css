@@ -30,3 +30,27 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.move-arrow {
+    font-size: 1rem; /* Make the arrow bigger */
+    display: inline-block; /* Allows transform to be applied */
+    
+    /* Attach the animation */
+    animation: moveForwardBackward 1.5s ease-in-out infinite;
+  }
+
+  /* Define the animation steps */
+  @keyframes moveForwardBackward {
+    0% {
+      /* Start position */
+      transform: translateX(0);
+    }
+    50% {
+      /* Move 10px to the right (forward) */
+      transform: translateX(3px);
+    }
+    100% {
+      /* Return to start position */
+      transform: translateX(0);
+    }
+  }

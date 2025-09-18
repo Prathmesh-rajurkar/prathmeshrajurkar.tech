@@ -1,20 +1,20 @@
-"use client";
-
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
-import { useTheme } from "next-themes";
-import Image from "next/image";
+import ProjectSection from "@/components/ProjectSection";
 
 export default function Home() {
-    const { theme, setTheme } = useTheme();
-
     return (
-        <div className="bg-white dark:bg-black h-screen">
-            <div>
-                <Navbar />
-            </div>
+        <div className="bg-white dark:bg-black">
+            <Navbar />
+
             <div className="mx-auto max-w-[950px]">
-                <HeroSection />
+                <section className="h-[calc(100vh-300px)] flex items-center justify-center">
+                    <HeroSection />
+                </section>
+
+                <section id="projects" className="py-20">
+                    <ProjectSection />
+                </section>
             </div>
         </div>
     );
