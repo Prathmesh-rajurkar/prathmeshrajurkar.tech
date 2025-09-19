@@ -89,7 +89,7 @@ const Navbar = () => {
                             href="#exp"
                             className="hover:text-black dark:hover:text-white transition-colors duration-300"
                         >
-                            Experience & Education
+                            Experience
                         </a>
                     </li>
                     <li>

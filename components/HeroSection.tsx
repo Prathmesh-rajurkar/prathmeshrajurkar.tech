@@ -20,10 +20,10 @@ const HeroSection = () => {
                     create innovative solutions that make a difference.
                 </p>
                 <div className="flex gap-2">
-                    <button className="px-3 py-1 mt-4 dark:text-black text-white rounded dark:bg-purple-600 bg-orange-600">
+                    <button className="px-3 py-1 mt-4 dark:text-black text-white rounded dark:bg-purple-600 bg-orange-600 dark:hover:bg-purple-700 hover:bg-orange-700">
                         My Skills <span className="move-arrow">→</span>
                     </button>
-                    <button className="px-3 py-1 mt-4 dark:text-purple-600 text-orange-600 rounded dark:bg-black border dark:border-purple-600 bg-white border-orange-600">
+                    <button className="px-3 py-1 mt-4 dark:text-purple-600 text-orange-600 dark:hover:text-purple-700 hover:text-orange-700 rounded dark:bg-black border dark:border-purple-600 bg-white border-orange-600 dark:hover:border-purple-700 hover:border-orange-700">
                         Contact Me <span className="move-arrow">→</span>
                     </button>
                 </div>
@@ -35,8 +35,8 @@ const HeroSection = () => {
                         <Image
                             src="/profile_photo.jpg"
                             alt="Abstract Developer Illustration"
-                            layout="fill"
-                            objectFit="cover"
+                            fill
+                            style={{ objectFit: "cover" }}
                             className="w-full h-full"
                         />
                     </div>
