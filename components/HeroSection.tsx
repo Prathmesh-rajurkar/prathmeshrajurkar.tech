@@ -4,7 +4,7 @@ import React from "react";
 const HeroSection = () => {
     return (
         <div className="flex justify-center items-center">
-            <div className="dark:text-white text-black p-2">
+            <div className="dark:text-white text-black p-6">
                 <h1 className="text-6xl font-semibold ">
                     PRATHMESH <br /> RAJURKAR.
                 </h1>
@@ -21,10 +21,10 @@ const HeroSection = () => {
                 </p>
                 <div className="flex gap-2">
                     <button className="px-3 py-1 mt-4 dark:text-black text-white rounded dark:bg-purple-600 bg-orange-600 dark:hover:bg-purple-700 hover:bg-orange-700">
-                        My Skills <span className="move-arrow">→</span>
+                       <a href="#projects"> My Projects <span className="move-arrow">→</span></a>
                     </button>
                     <button className="px-3 py-1 mt-4 dark:text-purple-600 text-orange-600 dark:hover:text-purple-700 hover:text-orange-700 rounded dark:bg-black border dark:border-purple-600 bg-white border-orange-600 dark:hover:border-purple-700 hover:border-orange-700">
-                        Contact Me <span className="move-arrow">→</span>
+                        <a href="#contact">Contact Me <span className="move-arrow">→</span></a>
                     </button>
                 </div>
             </div>
