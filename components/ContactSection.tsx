@@ -9,7 +9,7 @@ const ContactSection = () => {
       <div className="flex flex-col items-center text-center mb-16">
         <div className="relative">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold dark:text-white text-black">
-            Let's Connect!
+            Let&apos;s Connect!
           </h1>
           <div className="absolute -top-2 -right-12 sm:-right-16 text-orange-500 dark:text-purple-500">
             <MessageCircle size={40} strokeWidth={1.5} />
@@ -23,12 +23,12 @@ const ContactSection = () => {
         {/* Left Side: Text Content */}
         <div className="space-y-6 text-center md:text-left w-90">
           <p className="text-neutral-700 dark:text-neutral-300">
-            I'm always looking to make new connections, so drop me an email or
+            I&apos;m always looking to make new connections, so drop me an email or
             shoot me a DM on Twitter. Who knows where the conversation could
             lead?
           </p>
           <p className="text-neutral-700 dark:text-neutral-300">
-            Let's explore the possibilities and see where it takes us!
+            Let&apos;s explore the possibilities and see where it takes us!
           </p>
           <div className="flex justify-center md:justify-start">
             <a
