@@ -9,7 +9,7 @@ const ScrollToTopButton = () => {
   // This function will be called when the user scrolls
   const toggleVisibility = () => {
     // Show button when scrolled down more than 300px
-    if (window.scrollY > 300) {
+    if (window.scrollY > 500) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
