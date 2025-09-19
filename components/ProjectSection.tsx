@@ -60,11 +60,11 @@ const ProjectSection = () => {
             </div>
 
             {/* Projects Grid */}
-            <div className="grid gap-8 md:gap-10 sm:grid-cols-2 lg:grid-cols-2 mx-auto">
+            <div className="flex flex-col gap-8">
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className="flex flex-col bg-zinc-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 shadow-md hover:shadow-xl hover:-translate-y-2 rounded-xl overflow-hidden transition-all duration-300"
+                        className="flex flex-col bg-zinc-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 shadow-md hover:shadow-xl rounded-xl overflow-hidden transition-all duration-300"
                     >
                         <a
                             href={project.link}
@@ -77,7 +77,7 @@ const ProjectSection = () => {
                                 alt={`${project.title} screenshot`}
                                 width={600}
                                 height={400}
-                                className="w-full h-48 object-cover object-top transform hover:scale-105 transition-transform duration-300"
+                                className="w-full h-full object-cover object-top transform hover:scale-105 transition-transform duration-300"
                             />
                         </a>
 
@@ -118,9 +118,9 @@ const ProjectSection = () => {
                 ))}
             </div>
             <div className="flex items-center justify-center">
-                <button className="text-center mt-8 py-2 px-4 rounded text-white dark:text-black bg-orange-600 dark:bg-purple-600 hover:bg-orange-700 dark:hover:bg-purple-700 transition-colors">
+                <a href="https://github.com/Prathmesh-rajurkar" className="text-center mt-8 py-2 px-4 rounded text-white dark:text-black bg-orange-600 dark:bg-purple-600 hover:bg-orange-700 dark:hover:bg-purple-700 transition-colors">
                     See More Projects <span className="move-arrow">→</span>
-                </button>
+                </a>
             </div>
         </section>
     );

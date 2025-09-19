@@ -58,3 +58,6 @@ body {
 .move-arrow:hover{
   transform: translateX(4px);
 }
+html {
+  scroll-behavior: smooth;
+}
