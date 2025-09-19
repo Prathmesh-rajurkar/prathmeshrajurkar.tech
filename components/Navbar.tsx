@@ -86,6 +86,14 @@ const Navbar = () => {
                     </li>
                     <li>
                         <a
+                            href="#exp"
+                            className="hover:text-black dark:hover:text-white transition-colors duration-300"
+                        >
+                            Experience
+                        </a>
+                    </li>
+                    <li>
+                        <a
                             href="#skills"
                             className="hover:text-black dark:hover:text-white transition-colors duration-300"
                         >
