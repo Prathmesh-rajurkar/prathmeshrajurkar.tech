@@ -32,7 +32,7 @@ export default function Home() {
 
       <div className="mx-auto max-w-[950px]">
         {/* Hero Section */}
-        <section ref={heroRef} className="h-[calc(100vh-300px)] flex items-center justify-center">
+        <section ref={heroRef} className="md:h-[calc(100vh-300px)] h-full flex items-center justify-center">
           <HeroSection />
         </section>
 
