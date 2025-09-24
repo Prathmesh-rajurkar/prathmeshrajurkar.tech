@@ -25,10 +25,10 @@ const projects = [
         link: "https://codearena-three.vercel.app",
     },
     {
-        title: "InstaClone",
-        desc: "A feature-rich social media application inspired by Instagram, enabling users to share posts, follow others, and interact in real-time.",
+        title: "Cloudisk",
+        desc: "Cloudisk offers a unified and secure space for all your files. Sync documents and photos across devices, and instantly share them with anyone using a secure link.",
         github: "https://github.com/Prathmesh-rajurkar/CogniCloud",
-        link: "https://instagram-sigma-sable.vercel.app",
+        link: "",
     },
     {
         title: "Portfolio Website",
