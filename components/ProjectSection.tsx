@@ -28,7 +28,7 @@ const projects = [
         title: "Cloudisk",
         desc: "Cloudisk offers a unified and secure space for all your files. Sync documents and photos across devices, and instantly share them with anyone using a secure link.",
         github: "https://github.com/Prathmesh-rajurkar/CogniCloud",
-        link: "",
+        link: "https://cognicloud.vercel.app/",
     },
     {
         title: "Portfolio Website",
