@@ -19,24 +19,24 @@ const previewLink = (url: string) => {
 };
 
 const projects = [
-  {
-    title: "CodeArena",
-    desc: "A competitive programming platform with features like real-time contests, problem-solving, and user rankings, built with the MERN stack.",
-    github: "https://github.com/Prathmesh-rajurkar/CodeArena",
-    link: "https://codearena-three.vercel.app",
-  },
-  {
-    title: "Cloudisk",
-    desc: "Cloudisk offers a unified and secure space for all your files. Sync documents and photos across devices, and instantly share them with anyone using a secure link.",
-    github: "https://github.com/Prathmesh-rajurkar/CogniCloud",
-    link: "https://cognicloud.vercel.app",
-  },
-  {
-    title: "Portfolio Website",
-    desc: "My personal portfolio to showcase my skills and projects, designed with Next.js and Tailwind CSS for a sleek and responsive experience.",
-    github: "https://github.com/Prathmesh-rajurkar/Opinia",
-    link: "https://prathmeshrajurkar.tech",
-  },
+    {
+        title: "CodeArena",
+        desc: "A competitive programming platform with features like real-time contests, problem-solving, and user rankings, built with the MERN stack.",
+        github: "https://github.com/Prathmesh-rajurkar/CodeArena",
+        link: "https://codearena-three.vercel.app",
+    },
+    {
+        title: "CogniCloud",
+        desc: "CogniCloud offers a unified and secure space for all your files. Sync documents and photos across devices, and instantly share them with anyone using a secure link.",
+        github: "https://github.com/Prathmesh-rajurkar/CogniCloud",
+        link: "https://cognicloud.vercel.app",
+    },
+    {
+        title: "Portfolio Website",
+        desc: "My personal portfolio to showcase my skills and projects, designed with Next.js and Tailwind CSS for a sleek and responsive experience.",
+        github: "https://github.com/Prathmesh-rajurkar/Opinia",
+        link: "https://prathmeshrajurkar.tech",
+    },
 ];
 
 const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
