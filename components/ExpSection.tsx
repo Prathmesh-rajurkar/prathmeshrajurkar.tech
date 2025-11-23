@@ -8,6 +8,7 @@ const ExpSection = () => {
             date: "July 2025 - now",
             title: "Full Stack Developer Intern",
             company: "SenseLive",
+            desc:"Worked on realtime dashboard for IIot devices , implemented real time communication system with websocket and mqtt bridge for energy management systems and water management systems. Made a security system used in miles for workers called as resqforce , which tracks the workers helmet and sos , fall alerts.",
             logo: "/senselive_logo.png",
         },
         {
@@ -52,7 +53,7 @@ const ExpSection = () => {
                 </div>
 
                 {/* Right Side: Timeline */}
-                <div className="space-y-12">
+                <div className="space-y-12 sm:w-96">
                     {experienceData.map((item, index) => (
                         <div key={index} className="flex gap-4">
                             <div className="flex items-center justify-center w-12 h-12 rounded-full bg-zinc-100 dark:bg-neutral-800 text-orange-600 dark:text-purple-500 font-bold text-xl flex-shrink-0">
@@ -72,6 +73,9 @@ const ExpSection = () => {
                                 </h3>
                                 <p className="text-sm text-neutral-600 dark:text-neutral-300">
                                     {item.company}
+                                </p>
+                                <p className="text-sm text-neutral-600 dark:text-neutral-100 mt-2">
+                                    {item.desc}
                                 </p>
                             </div>
                         </div>
