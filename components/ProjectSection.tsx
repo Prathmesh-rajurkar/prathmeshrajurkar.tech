@@ -31,6 +31,7 @@ const projects = [
     github: "https://github.com/Prathmesh-rajurkar/quizoff",
     link: "https://quizoff.vercel.app",
   },
+
 ];
 
 const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
