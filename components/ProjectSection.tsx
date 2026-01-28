@@ -19,6 +19,12 @@ const previewLink = (url: string) => {
 };
 
 const projects = [
+   {
+    title: "CloudXS",
+    desc: "A developer-first media platform that enables secure image and video uploads, real-time transformations, and global delivery via CDN. Built using a modern full-stack architecture, CloudXS supports direct-to-storage uploads, API-key based authentication, URL-based media transformations, and optimized delivery for images and videos. It eliminates backend bottlenecks and provides scalable, high-performance media infrastructure for web applications.",
+    github: "https://github.com/Prathmesh-rajurkar/cloudxs",
+    link: "https://cloudxs.app",
+  },
   {
     title: "CodeArena",
     desc: "A competitive programming platform with features like real-time contests, problem-solving, and user rankings, built with the NextJs. Used Judge0 API for code execution and evaluation.",
@@ -31,6 +37,7 @@ const projects = [
     github: "https://github.com/Prathmesh-rajurkar/quizoff",
     link: "https://quizoff.vercel.app",
   },
+  
 
 ];
 
